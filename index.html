@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tatkaar - Master Kathak with Precision</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 20px;
+            padding: 60px 40px;
+            background-color: white;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .logo {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 30px;
+            background: linear-gradient(135deg, #B8954F 0%, #D4AF6A 100%);
+            border-radius: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 60px;
+            color: white;
+        }
+
+        h1 {
+            font-size: 2.8em;
+            margin-bottom: 10px;
+            color: #B8954F;
+            font-weight: normal;
+        }
+
+        .tagline {
+            font-size: 1.2em;
+            color: #666;
+            margin-bottom: 40px;
+            font-style: italic;
+        }
+
+        .description {
+            font-size: 1.05em;
+            color: #555;
+            margin-bottom: 40px;
+            line-height: 1.8;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-bottom: 40px;
+        }
+
+        .link-button {
+            display: inline-block;
+            padding: 18px 40px;
+            background: linear-gradient(135deg, #B8954F 0%, #D4AF6A 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 1.1em;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 15px rgba(184, 149, 79, 0.3);
+        }
+
+        .link-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(184, 149, 79, 0.4);
+        }
+
+        .link-button.secondary {
+            background: white;
+            color: #B8954F;
+            border: 2px solid #B8954F;
+            box-shadow: none;
+        }
+
+        .link-button.secondary:hover {
+            background: #f9f9f9;
+        }
+
+        .features {
+            text-align: left;
+            margin-bottom: 40px;
+        }
+
+        .features h2 {
+            color: #B8954F;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .feature-item {
+            display: flex;
+            align-items: start;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+
+        .feature-icon {
+            font-size: 24px;
+            min-width: 30px;
+        }
+
+        .feature-text {
+            color: #555;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 1px solid #ddd;
+            color: #999;
+            font-size: 0.9em;
+        }
+
+        .app-store-badge {
+            margin: 20px 0;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 40px 30px;
+            }
+
+            h1 {
+                font-size: 2.2em;
+            }
+
+            .tagline {
+                font-size: 1.1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">🎵</div>
+
+        <h1>Tatkaar</h1>
+        <p class="tagline">Master the art of kathak</p>
+
+        <p class="description">
+            Your personal kathak practice companion. Perfect your footwork with authentic tabla rhythms,
+            visual bol notation, and custom recording features.
+        </p>
+
+        <div class="features">
+            <h2>Features</h2>
+            <div class="feature-item">
+                <div class="feature-icon">✓</div>
+                <div class="feature-text"><strong>Practice Tatkaar</strong> with authentic tabla rhythms and bol notation</div>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">✓</div>
+                <div class="feature-text"><strong>Record Custom Tukdas</strong> with built-in metronome support</div>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">✓</div>
+                <div class="feature-text"><strong>30-Day Free Trial</strong> with full access to all features</div>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">✓</div>
+                <div class="feature-text"><strong>Track Your Progress</strong> and build consistent practice habits</div>
+            </div>
+        </div>
+
+        <div class="links">
+            <a href="support.html" class="link-button">Support & FAQ</a>
+            <a href="privacy.html" class="link-button secondary">Privacy Policy</a>
+        </div>
+
+        <div class="app-store-badge">
+            <p style="color: #666; font-size: 0.95em;">Available on the App Store</p>
+        </div>
+
+        <footer>
+            <p>&copy; 2025 Tatkaar. All rights reserved.</p>
+            <p style="margin-top: 10px;">
+                <a href="mailto:support@tatkaar.app" style="color: #B8954F; text-decoration: none;">support@tatkaar.app</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
